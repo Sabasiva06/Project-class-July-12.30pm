@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.002831">
+<testcase classname="Validating login field of facebook application" name="validating login of facebook" time="0.002176">
+<skipped><![CDATA[Given user is Fb page.......................................................undefined
+When user enter username and password.......................................undefined
+And User click login button.................................................undefined
+Given user is on facebook application.......................................undefined
+When user enter user name and password......................................undefined
+And user should click login button..........................................undefined
+Then user need to validate..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Validating login field of facebook application" name="validating login of facebook 2" time="0.000655">
+<skipped><![CDATA[Given user is Fb page.......................................................undefined
+When user enter username and password.......................................undefined
+And User click login button.................................................undefined
+Given user is on facebook application.......................................undefined
+When user enter user name and password......................................undefined
+And user should click login button..........................................undefined
+Then user need to validate..................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
