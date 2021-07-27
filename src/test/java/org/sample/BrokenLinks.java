@@ -38,5 +38,13 @@ public class BrokenLinks {
 			}
 		}
 		System.out.println("Broken Link Count :" + brokenLink);
+
+		WebElement txtUserName = driver.findElement(By.id("email"));
+		txtUserName.sendKeys("welcomejava");
+		WebElement txtPassword = driver.findElement(By.id("pass"));
+		txtPassword.sendKeys("selenium java");
+		WebElement btnlogin = driver.findElement(By.id("login"));
+		btnlogin.click();
+
 	}
 }
