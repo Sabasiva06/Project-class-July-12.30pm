@@ -38,5 +38,10 @@ public class BrokenLinks {
 			}
 		}
 		System.out.println("Broken Link Count :" + brokenLink);
+
+		System.out.println(brokenLink);
+		List<WebElement> imgCount = driver.findElements(By.tagName("img"));
+		int size = imgCount.size();
+		System.out.println(size);
 	}
 }
