@@ -39,12 +39,17 @@ public class BrokenLinks {
 		}
 		System.out.println("Broken Link Count :" + brokenLink);
 
+		System.out.println(brokenLink);
+		List<WebElement> imgCount = driver.findElements(By.tagName("img"));
+		int size = imgCount.size();
+		System.out.println(size);
 		WebElement txtUserName = driver.findElement(By.id("email"));
 		txtUserName.sendKeys("welcomejava");
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("selenium java");
 		WebElement btnlogin = driver.findElement(By.id("login"));
 		btnlogin.click();
+
 
 	}
 }
